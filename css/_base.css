@@ -1,0 +1,30 @@
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #0E1014;
+}
+
+.container{
+    position: relative;
+    width: 1140px;
+    min-height: 980px;
+    margin: 0 auto;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        height: 1115px;
+    }
+
+    .container {
+    width: 320px;
+    padding: 0;
+    }
+}
